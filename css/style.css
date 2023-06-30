@@ -209,12 +209,15 @@ main {
 .social-icons {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .social-icon {
     margin: 30px 30px;
-    /* Ajustar segun mi preferencia */
+    flex: 1 0 200px;
+    text-align: center;
 }
 
 .icon {
