@@ -1,0 +1,3 @@
+ La página web "ZUKOMPUTADORA" es un sitio que ofrece servicios técnicos y educativos relacionados con la informática. Proporciona información sobre la empresa, sus servicios, opciones de educación, asistencia remota y formas de contacto.
+
+ La página utiliza el framework Bootstrap para estilos y funcionalidades adicionales. Se cargan los archivos de JavaScript de Bootstrap al final del cuerpo de la página para permitir la interacción con elementos como el menú de navegación y el modal.

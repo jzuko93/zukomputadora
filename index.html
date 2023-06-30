@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>ZUKOMPUTADORA</title>
+</head>
+
+<body>
+    <!-- INICIO HEADER -->
+    <header>
+        <section id="iindex"></section>
+        <!-- INICIO MENU -->
+        <nav class="navbar navbar-expand-lg navbar-fixed navbar-color sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#iindex">
+                    <img src="img/LOGO.webp" alt="Logo" class="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#iservicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ieducacion">Educación</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#iasistenciaremota" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Asistencia Remota
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Reservar Turno</a></li>
+                                <li><a class="dropdown-item" href="#">Tutorial</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN MENU -->
+
+        <main>
+            <div class="video-container mtext-color">
+                <div class="overlay"></div>
+                <video class="fullscreen-video" autoplay loop muted>
+                    <source src="./videos/ifondo.webm" type="video/webm" />
+                </video>
+                <div class="content">
+                    <div class="container">
+                        <h1 class="text-center mtext-color">TU LUGAR</h1>
+                        <h2 class="text-center mtext-color">
+                            SERVICIO TÉCNICO + EDUCACIÓN
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- INICIO SECCION NOSOTROS -->
+        <section id="inosotros" class="row">
+            <div class="container">
+                <div class="row flex-lg-row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="display-5 mb-3">NOSOTROS</h2>
+                        <p class="lead">
+                            Nos esforzamos por mantenernos al día con las últimas
+                            tecnologías y herramientas del sector. Esto nos permite
+                            ofrecerte un servicio de primera categoría y brindarte la
+                            tranquilidad de saber que tus dispositivos están en buenas
+                            manos.
+                        </p>
+                        <a href="./pages/nosotros.html" class="btn btn-primary btn-custom">Saber Más</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./img/inosotros.webp" class="d-block mx-lg-auto img-fluid sections-img"
+                            alt="Imagen de una persona reparando una computadora" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SECCION NOSOTROS -->
+
+        <!-- INICIO SECCION SERVICIOS -->
+        <section id="iservicios" class="row">
+            <div class="container">
+                <div class="row flex-lg-row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <h2 class="display-5 text-lg-end">SERVICIOS</h2>
+                        <p class="lead text-lg-end">
+                            Ofrecemos servicios de IT de alta calidad, que incluyen reparación y el mantenimiento de
+                            computadoras, notebooks e infraestructuras de red. También ofrecemos asistencia remota para
+                            individuos y empresas. Nuestro objetivo es entender las necesidades únicas de cada usuario y
+                            proporcionar soluciones efectivas y confiables.
+                        </p>
+                        <div class="text-lg-end">
+                            <a href="./pages/servicios.html" class="btn btn-primary btn-custom">Saber Más</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <img src="./img/iservicios.webp" class="d-block mx-lg-auto img-fluid sections-img"
+                            alt="Imagen de una persona reparando una computadora" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SECCION SERVICIOS -->
+
+        <!-- INICIO SECCION EDUCACION -->
+        <section id="ieducacion" class="row">
+            <div class="container">
+                <div class="row flex-lg-row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="display-5 mb-3">EDUCACIÓN</h2>
+                        <p class="lead">
+                            Amamos la educación en informática, por eso te ofrecemos recursos y
+                            conocimientos para que domines desde lo básico hasta lo avanzado.
+                            Descubrí tutoriales, artículos y consejos prácticos que te abrirán
+                            nuevas oportunidades en el mundo digital. ¡Únite a nosotros en este
+                            emocionante viaje de aprendizaje en informática!
+                        </p>
+                        <a href="./pages/educacion.html" class="btn btn-primary btn-custom">Saber Más</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./img/ieducacion.webp" class="d-block mx-lg-auto img-fluid sections-img"
+                            alt="Imagen de una persona aprendiendo" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SECCION EDUCACION -->
+
+        <!-- INICIO SECCION ASISTENCIA REMOTA -->
+        <section id="iasistenciaremota" class="row">
+            <div class="container">
+                <div class="row flex-lg-row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <h2 class="display-5 text-lg-end">ASISTENCIA REMOTA</h2>
+                        <p class="lead text-lg-end">
+                            Descubrí nuestra asistencia remota, el servicio más solicitado. Con solo
+                            unos clics, nos conectaremos de manera segura a tu dispositivo,
+                            resolviendo problemas en tiempo real. Maximiza tu tiempo y recursos con
+                            nuestra práctica y rápida asistencia remota, llevando tu experiencia
+                            tecnológica al siguiente nivel.
+                        </p>
+                        <div class="text-lg-end">
+                            <a href="./pages/asistenciaremota.html" class="btn btn-primary btn-custom">Saber Más</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <img src="./img/iasistenciaremota.webp" class="d-block mx-lg-auto img-fluid sections-img"
+                            alt="Imagen una computadora y un telefono" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SECCION ASISTENCIA REMOTA -->
+
+        <!-- INICIO SECCION REDES -->
+        <section id="inuestrasredes">
+            <div class="container">
+                <h2 class="text-center">Nuestras Redes</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <img src="./img/facebook.webp" alt="Logo de Facebook" class="icon" />
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./img/instagram.webp" alt="Logo de Instagram" class="icon" />
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./img/linkedin.webp" alt="Logo de LinkedIn" class="icon" />
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./img/youtube.webp" alt="Logo de YouTube" class="icon" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SECCION REDES -->
+
+        <!-- INICIO FOOTER -->
+        <section id="icontacto">
+            <div class="container">
+                <h2 class="text-center">Contacto</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <img src="./img/correo.webp" alt="Logo de Correo Electronico" class="icon" />
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./img/whatsapp.webp" alt="Logo de Telefono y Whatsapp" class="icon" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <p class="texto-derechos">© 2023 - ZUKOMPUTADORA - Todos los derechos reservados.</p>
+        <!-- FIN FOOTER -->
+
+        <!-- INICIO FORMULARIO DE CONTACTO -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Formulario de Contacto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Ingresa tu mensaje"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN FORMULARIO DE CONTACTO -->
+
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- Inicio Boostrap_JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Fin Boostrap_JavaScript -->
+</body>
+
+</html>

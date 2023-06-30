@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href=".././css/style.css" />
+    <title>ZUKOMPUTADORA</title>
+</head>
+
+<body>
+    <!-- INICIO HEADER -->
+    <header>
+        <section id="iindex"></section>
+        <!-- INICIO MENU -->
+        <nav class="navbar navbar-expand-lg navbar-fixed navbar-color sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html #iindex">
+                    <img src="../img/LOGO.webp" alt="Logo" class="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html #inosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html #iservicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html #ieducacion">Educación</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../index.html #iasistenciaremota" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Asistencia Remota
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Reservar Turno</a></li>
+                                <li><a class="dropdown-item" href="#">Tutorial</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN MENU -->
+
+        <main>
+            <section id="main2" class="d-flex align-items-center">
+                <img src="../img/construccion.webp" alt="Imagen" class="construction-image" />
+            </section>
+        </main>
+
+        <!-- INICIO FOOTER 2 -->
+        <hr>
+        <footer>
+            <div class="container-f2">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">Nuestras Redes</h2>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon2 animate__animated">
+                                <img src="../img/facebook.webp" alt="Logo de Facebook" class="icon2" />
+                            </a>
+                            <a href="#" class="social-icon2 animate__animated">
+                                <img src="../img/instagram.webp" alt="Logo de Instagram" class="icon2" />
+                            </a>
+                            <a href="#" class="social-icon2 animate__animated">
+                                <img src="../img/linkedin.webp" alt="Logo de LinkedIn" class="icon2" />
+                            </a>
+                            <a href="#" class="social-icon2 animate__animated">
+                                <img src="../img/youtube.webp" alt="Logo de YouTube" class="icon2" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2 class="text-center">Contacto</h2>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon2 animate__animated">
+                                <img src="../img/correo.webp" alt="Logo de Correo Electrónico" class="icon2" />
+                            </a>
+                            <a href="#" class="social-icon2 animate__animated">
+                                <img src="../img/whatsapp.webp" alt="Logo de Teléfono y Whatsapp" class="icon2" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <p class="texto-derechos">© 2023 - ZUKOMPUTADORA - Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FIN FOOTER 2 -->
+
+        <!-- INICIO FORMULARIO DE CONTACTO -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Formulario de Contacto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Ingresa tu mensaje"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN FORMULARIO DE CONTACTO -->
+
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- Inicio Boostrap_JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Fin Boostrap_JavaScript -->
+</body>
+
+</html>
