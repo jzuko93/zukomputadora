@@ -1,0 +1,27 @@
+/* Pantallas más pequeñas */
+@media (max-width: 978px) {
+  .logo {
+      width: 10rem;
+  }
+
+  .container {
+      h1 {
+          font-size: 3rem;
+      }
+
+      h2 {
+          font-size: 2rem;
+      }
+  }
+
+  .btn-custom {
+      margin-bottom: 2rem;
+  }
+}
+
+/* Pantallas más grandes */
+@media (min-width: 992px) {
+  .logo {
+      width: 15rem;
+  }
+}

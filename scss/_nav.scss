@@ -1,0 +1,25 @@
+/* INICIO NAV SIEMPRE ARRIBA */
+.navbar-up {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* COLOR NAV */
+.navbar-color {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* LOGO NAV */
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+/* BOTONES NAV */
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}

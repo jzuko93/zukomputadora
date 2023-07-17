@@ -1,0 +1,57 @@
+/* INICIO MAIN Y VIDEO */
+main {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    /* Ajustar segun mi preferencia */
+}
+
+.fullscreen-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    h1,
+    h2 {
+        width: 100%;
+        max-width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        /* Ajustar segun mi preferencia */
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+}
+
+.mtext-color {
+    h1,
+    h2 {
+        width: 100%;
+        max-width: 100%;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        /* Ajustar segun mi preferencia */
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+}

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>ZUKOMPUTADORA</title>
 </head>
@@ -81,7 +83,7 @@
         <section id="inosotros" class="row">
             <div class="container">
                 <div class="row flex-lg-row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right">
                         <h2 class="display-5 mb-3">NOSOTROS</h2>
                         <p class="lead">
                             Nos esforzamos por mantenernos al día con las últimas
@@ -92,7 +94,7 @@
                         </p>
                         <a href="./pages/nosotros.html" class="btn btn-primary btn-custom">Saber Más</a>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-left">
                         <img src="./img/inosotros.webp" class="d-block mx-lg-auto img-fluid sections-img"
                             alt="Imagen de una persona reparando una computadora" loading="lazy" />
                     </div>
@@ -105,7 +107,7 @@
         <section id="iservicios" class="row">
             <div class="container">
                 <div class="row flex-lg-row align-items-center">
-                    <div class="col-lg-6 order-lg-2">
+                    <div class="col-lg-6 order-lg-2" data-aos="fade-left">
                         <h2 class="display-5 text-lg-end">SERVICIOS</h2>
                         <p class="lead text-lg-end">
                             Ofrecemos servicios de IT de alta calidad, que incluyen reparación y el mantenimiento de
@@ -117,7 +119,7 @@
                             <a href="./pages/servicios.html" class="btn btn-primary btn-custom">Saber Más</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-6 order-lg-1" data-aos="fade-right">
                         <img src="./img/iservicios.webp" class="d-block mx-lg-auto img-fluid sections-img"
                             alt="Imagen de una persona reparando una computadora" loading="lazy" />
                     </div>
@@ -130,7 +132,7 @@
         <section id="ieducacion" class="row">
             <div class="container">
                 <div class="row flex-lg-row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-left">
                         <h2 class="display-5 mb-3">EDUCACIÓN</h2>
                         <p class="lead">
                             Amamos la educación en informática, por eso te ofrecemos recursos y
@@ -141,7 +143,7 @@
                         </p>
                         <a href="./pages/educacion.html" class="btn btn-primary btn-custom">Saber Más</a>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right">
                         <img src="./img/ieducacion.webp" class="d-block mx-lg-auto img-fluid sections-img"
                             alt="Imagen de una persona aprendiendo" loading="lazy" />
                     </div>
@@ -154,7 +156,7 @@
         <section id="iasistenciaremota" class="row">
             <div class="container">
                 <div class="row flex-lg-row align-items-center">
-                    <div class="col-lg-6 order-lg-2">
+                    <div class="col-lg-6 order-lg-2" data-aos="fade-right">
                         <h2 class="display-5 text-lg-end">ASISTENCIA REMOTA</h2>
                         <p class="lead text-lg-end">
                             Descubrí nuestra asistencia remota, el servicio más solicitado. Con solo
@@ -167,7 +169,7 @@
                             <a href="./pages/asistenciaremota.html" class="btn btn-primary btn-custom">Saber Más</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-6 order-lg-1" data-aos="fade-left">
                         <img src="./img/iasistenciaremota.webp" class="d-block mx-lg-auto img-fluid sections-img"
                             alt="Imagen una computadora y un telefono" loading="lazy" />
                     </div>
@@ -256,6 +258,13 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
     <!-- Fin Boostrap_JavaScript -->
+
+    <!-- Inicio AOS_JavaScript -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- Inicio AOS_JavaScript -->
+
 </body>
 
 </html>

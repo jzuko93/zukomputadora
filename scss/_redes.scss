@@ -1,0 +1,52 @@
+/* INICIO REDES */
+#inuestrasredes {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin: 30px 30px;
+  flex: 1 0 200px;
+  text-align: center;
+}
+
+.icon {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  width: 6rem;
+}
+
+.icon:hover {
+  filter: none;
+}
+
+/* iconos footer 2 */
+.icon2 {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  width: 1.5rem;
+}
+
+.icon2:hover {
+  filter: none;
+}
+
+.social-icon2 {
+  margin: 1px 30px;
+  /* Ajustar segun mi preferencia */
+}

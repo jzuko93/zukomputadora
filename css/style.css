@@ -1,272 +1,238 @@
-:root {
-    /* Define el tamaño base de 1rem */
-    font-size: 16px;
+@charset "UTF-8";
+body {
+  overflow-x: hidden;
 }
 
 /* INICIO DE FUENTES */
 @font-face {
-    font-family: "titulos";
-    src: url(.././fonts/Moki-Mono.otf) format("opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "titulos";
+  src: url(.././fonts/Moki-Mono.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "subtitulos";
-    src: url(.././fonts/nidsans-webfont.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "subtitulos";
+  src: url(.././fonts/nidsans-webfont.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 /* TEXTOS DENTRO DEL MAIN */
 .container h1 {
-    font-family: "titulos", sans-serif;
-    font-size: 5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Ajustar segun mi preferencia */
+  font-family: "titulos", sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Ajustar segun mi preferencia */
 }
-
 .container h2 {
-    font-family: "subtitulos", sans-serif;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Ajustar segun mi preferencia */
-}
-
-.container .mtext-color {
-    color: #ffffff;
-    /* Cambia el color del texto aquí */
+  font-family: "subtitulos", sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Ajustar segun mi preferencia */
 }
 
 .container-f2 h2 {
-    font-family: "subtitulos", sans-serif;
-    font-size: 1.5rem;
-    /* Ajustar segun mi preferencia */
+  font-family: "subtitulos", sans-serif;
+  font-size: 1.5rem;
+  /* Ajustar segun mi preferencia */
 }
 
 /* TEXTOS DENTRO DE SERVICIOS Y MAS */
-
 .container h2 {
-    font-family: "subtitulos", sans-serif;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Ajustar segun mi preferencia */
+  font-family: "subtitulos", sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Ajustar segun mi preferencia */
 }
-
-
-
-/* FIN DE FUENTES */
-
-/* INICIO NAV SIEMPRE ARRIBA */
-.navbar-up {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-/* FIN NAV SIEMPRE ARRIBA */
-
-/* INICIO PANTALLAS */
 
 /* Pantallas más pequeñas */
 @media (max-width: 978px) {
-    .logo {
-        width: 10rem;
-    }
-
-    .container h1 {
-        font-size: 3rem;
-    }
-
-    .container h2 {
-        font-size: 2rem;
-    }
+  .logo {
+    width: 10rem;
+  }
+  .container h1 {
+    font-size: 3rem;
+  }
+  .container h2 {
+    font-size: 2rem;
+  }
+  .btn-custom {
+    margin-bottom: 2rem;
+  }
 }
-
-@media (max-width: 978px) {
-    .btn-custom {
-        margin-bottom: 2rem;
-    }
-}
-
 /* Pantallas más grandes */
 @media (min-width: 992px) {
-    .logo {
-        width: 15rem;
-    }
+  .logo {
+    width: 15rem;
+  }
 }
-
-/* FIN PANTALLAS */
-
-/* INICIO NAV */
+/* INICIO NAV SIEMPRE ARRIBA */
+.navbar-up {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
 
 /* COLOR NAV */
 .navbar-color {
-    background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* LOGO NAV */
 .logo {
-    width: 10rem;
-    height: auto;
+  width: 10rem;
+  height: auto;
 }
 
 /* BOTONES NAV */
-
 .navbar-nav .nav-link {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
 }
-
-
-/* FIN NAV */
 
 /* INICIO MAIN Y VIDEO */
 main {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 40rem;
-    /* Ajustar segun mi preferencia */
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  /* Ajustar segun mi preferencia */
 }
 
 .fullscreen-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  z-index: 1;
 }
 
 .container h1,
 .container h2 {
-    width: 100%;
-    max-width: 100%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Ajustar segun mi preferencia */
+  width: 100%;
+  max-width: 100%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Ajustar segun mi preferencia */
 }
-
 .container h1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-/* FIN MAIN Y VIDEO */
+.mtext-color h1,
+.mtext-color h2 {
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Ajustar segun mi preferencia */
+}
+.mtext-color h1 {
+  margin-bottom: 1rem;
+}
 
 /* INICIO SERVICIOS Y MAS */
 .container {
-    max-width: 90rem;
-    /* Ajustar segun mi preferencia */
-    margin: 0 auto;
-    padding: 2.5rem;
+  max-width: 90rem;
+  /* Ajustar segun mi preferencia */
+  margin: 0 auto;
+  padding: 2.5rem;
 }
 
 .sections-img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
-/* FIN SERVICIOS Y MAS */
 
 /* INICIO BACKGROUND */
 #iservicios {
-    background-color: rgba(28, 210, 255, 0.2);
+  background-color: rgba(28, 210, 255, 0.2);
 }
 
 #iasistenciaremota {
-    background-color: rgba(28, 210, 255, 0.2);
+  background-color: rgba(28, 210, 255, 0.2);
 }
 
 #icontacto {
-    background-color: rgba(28, 210, 255, 0.2);
+  background-color: rgba(28, 210, 255, 0.2);
 }
-
-/* FIN BACKGROUND */
-
 
 /* INICIO REDES */
 #inuestrasredes {
-    padding: 20px;
+  padding: 20px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .social-icon {
-    margin: 30px 30px;
-    flex: 1 0 200px;
-    text-align: center;
+  margin: 30px 30px;
+  flex: 1 0 200px;
+  text-align: center;
 }
 
 .icon {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-    max-width: 100%;
-    height: auto;
-    width: 6rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  width: 6rem;
 }
 
 .icon:hover {
-    filter: none;
+  filter: none;
 }
 
 /* iconos footer 2 */
 .icon2 {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-    max-width: 100%;
-    height: auto;
-    width: 1.5rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  width: 1.5rem;
 }
 
 .icon2:hover {
-    filter: none;
+  filter: none;
 }
 
 .social-icon2 {
-    margin: 1px 30px;
-    /* Ajustar segun mi preferencia */
+  margin: 1px 30px;
+  /* Ajustar segun mi preferencia */
 }
-
-/* FIN REDES */
 
 /* INICIO TEXTO DERECHOS */
-
 .texto-derechos {
-    text-align: center;
-    font-size: smaller;
-    margin-top: 3rem
+  text-align: center;
+  font-size: smaller;
+  margin-top: 3rem;
 }
-
-/* FIN TEXTO DERECHOS */
 
 /* INICIO SITIO EN CONSTRUCCION */
-
 .construction-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-/* FIN SITIO EN CONSTRUCCION */
+/*# sourceMappingURL=style.css.map */
